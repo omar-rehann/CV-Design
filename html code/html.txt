@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-DESIGN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-Design">
+        <div class="start-cv">
+            <div class="frist-box">
+                <div class="image">
+                    <img src="photo/avatar_hat.jpg" alt="">
+                    <h4>jane Doe</h4>
+                </div>
+                <div class="content-box">
+                    <h4> <i class="fa-solid fa-briefcase" style="color: #009688;margin-right: 4px;"></i>Designer
+
+                    </h4>
+                    <h4><i class="fa-solid fa-house"  style="color: #009688;margin-right: 4px;"></i>London, UK
+
+                    </h4>
+                    <h4><i class="fa-solid fa-envelope"  style="color: #009688;margin-right: 4px;"></i>ex@mail.com
+
+                    </h4>
+                    <h4><i class="fa-solid fa-phone"  style="color: #009688;margin-right: 4px;"></i>1224435534
+
+                    </h4>
+                </div>
+                <div class="skiils-box">
+                    <h3> <i class="fa-brands fa-centos" style="color: #009688;margin-right: 4px;"></i>Skills</h3>
+                    <div class="content-skills">
+                        <span>Adobe Photoshop
+                        </span>
+                        <div class="progress">
+                            <span style="width: 90%;">90%</span>
+                        </div>
+                        <span>Photography
+                        </span>
+                        <div class="progress">
+                            <span style="width: 80%;">80%</span>
+                        </div>
+                        <span>Illustrator
+                        </span>
+                        <div class="progress">
+                            <span style="width: 75%;">75%</span>
+                        </div>
+                        <span>Media
+                        </span>
+                        <div class="progress">
+                            <span style="width: 50%;">50%</span>
+                        </div>
+                    </div>
+                    <div class="end-frist-box">
+                        <h3> <i class="fa-solid fa-earth-americas" style="color: #009688;margin-right: 4px;"></i>Languages
+                        </h3>
+                        <div class="content-skills">
+                            <span>English
+                            </span>
+                            <div class="progress">
+                                <span style="width: 100%;"></span>
+                            </div>
+                            <span>Spanish
+                            </span>
+                            <div class="progress">
+                                <span style="width: 75%;"></span>
+                            </div>
+                            <span>German
+                            </span>
+                            <div class="progress">
+                                <span style="width: 50%;"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="two-row">
+                <div class="second-box">
+                    <div class="one-job">
+                        <h3> <i class="fa-solid fa-briefcase" style="color: #009688;margin-right: 4px;"></i>Work Experience</h3>
+                        <h4>Front End Developer / w3schools.com
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;"></i>Jan 2015 - <span style="background-color: #009688;color: white;padding: 5px;border-radius: 5px;">Current</span>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat maiores corrupti adipisci reiciendis laboriosam blanditiis animi, eaque illum qui dolorem incidunt ipsam porro error et fugiat iure, illo odit exercitationem. Eos voluptas molestiae dolor quisquam, perspiciatis reiciendis! Nobis eligendi repudiandae debitis animi quia inventore qui rerum, sunt voluptatibus reiciendis.</p>
+                    </div>
+                    <div class="two-job">
+                        <h4>Web Developer / something.com
+    
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;"></i>Mar 2012 - Dec-2014</span>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat maiores corrupti adipisci reiciendis laboriosam  Eos voluptas molestiae dolor quisquam, perspiciatis reiciendis! Nobis eligendi repudiandae debitis animi quia inventore qui rerum, sunt voluptatibus reiciendis.</p>
+                    </div>
+                    <div class="three-job">
+                        <h4>Graphic Designer / designsomething.com
+    
+    
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;"></i>Jun 2012 - Mar-2014</span>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    
+                        </p>
+                    </div>
+                   
+                </div>
+                <div class="third-box">
+                    <h3> <i class="fa-solid fa-award" style="color: #009688;margin-right: 4px;"></i>Education</h3>
+                    <div class="frist-box">
+                        <h4>W3Schools.com
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;vertical-align: middle;margin-bottom: 5px;"></i>Forever</span>
+                        <p>Web Development! All I need to know in one place
+
+                        </p>
+                    </div>
+                    <div class="second-box">
+                        <h4>London Business School
+
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;vertical-align: middle;margin-bottom: 5px;"></i>2013-2015</span>
+                        <p>Master Degree
+
+
+
+                        </p>
+                    </div>
+                    <div class="third-box">
+                        <h4>School of Coding
+                        </h4>
+                        <span style="color: #009688;"> <i class="fa-solid fa-calendar-days" style="color: #009688;margin-right: 4px;vertical-align: middle;margin-bottom: 5px;"></i>2013-2015</span>
+                        <p>Bachelor Degree
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            <h4>Find me on social media.
+
+            </h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <p>Powerd By <a href="#">W3.school</a></p>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

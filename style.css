@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-Design{
+    min-height: 100vh;
+    box-shadow:  0px 0px grey 20px;
+    background-color: #DFDFDF;
+    font-family: sans-serif;
+}
+.start-cv{
+    display:flex;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media (max-width:992px) {
+    .start-cv{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+.start-cv .frist-box{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.start-cv .frist-box .image{
+    position: relative;
+
+}
+.start-cv .frist-box .image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.start-cv .frist-box .image h4{
+    position: absolute;
+    left: 12px;
+    bottom: 7px;
+    
+}
+.start-cv .frist-box .content-box{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom:  solid 2px #ddd;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+.start-cv .frist-box .content-box h4{
+    margin-left: 10px;
+}
+.start-cv .frist-box .skiils-box h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+.start-cv .frist-box .skiils-box {
+    line-height: 2;
+}
+.start-cv .frist-box .skiils-box span{
+    color: grey;
+    margin-left: 10px;
+    
+}
+.start-cv .frist-box .skiils-box .content-skills .progress{
+    position: relative;
+    height: 25px;
+    width: 90%;
+    background-color: #F1F1F1;
+    margin: 10px;
+    border-radius: 19px;
+    overflow: hidden;
+    padding: 10px;
+    
+    
+}
+.start-cv .frist-box .skiils-box .content-skills .progress span{
+    position: absolute;
+    height: 100%;
+    background:#009688;
+    color: white;
+    left: -9px;
+    top: 0px;
+    text-align: center;
+    border-radius: 19px;
+    
+    
+}
+/* end frist box */
+/* ----------------------------------------------------------------- */
+/* start second box */
+.start-cv .second-box{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.start-cv .second-box .one-job h3{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.start-cv .second-box .one-job h4{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+.start-cv .second-box .one-job  span,.start-cv .second-box .two-job,.start-cv .second-box .three-job{
+    margin-top: 14px;
+}
+.start-cv .second-box .one-job p,.start-cv .second-box .two-job,.start-cv .second-box .three-job p{
+    margin-top: 10px;
+    color: #222;
+}
+
+.start-cv .second-box .one-job,.start-cv .second-box .two-job{
+    border-bottom:  solid 2px #ccc;
+    line-height: 2;
+}
+.start-cv .second-box .three-job{
+    line-height: 2;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* start three box */
+.start-cv .two-row .third-box{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 10px;
+}
+.start-cv .two-row .third-box .frist-box,.start-cv .two-row .third-box .second-box{
+    border-bottom:  solid 2px #ddd;
+    border-radius: 0px;
+    line-height: 2;
+}
+.start-cv .two-row .third-box .third-box{
+    border-radius: 0px;
+    line-height: 2;
+
+}
+.start-cv .two-row .third-box .frist-box h4{
+    color: #898989;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.start-cv .two-row .third-box .frist-box p{
+    margin-top: 10px;
+    margin-bottom: 10px
+    
+}
+/* end three Box */
+/* ----------------------------------------------------------------------------------- */
+/* start footer */
+.footer{
+    background-color: #009688;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer .icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer  p a{
+    color: white;
+}
+/* end footer */
